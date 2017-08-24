@@ -1,6 +1,4 @@
-package com.yiguohan.idouban.bean.filmlive;
-
-import com.yiguohan.idouban.bean.top250.Subjects;
+package com.yiguohan.idouban.bean.top250;
 
 import java.util.List;
 
@@ -8,7 +6,7 @@ import java.util.List;
  * Created by yiguohan.
  */
 
-public class FilmLive {
+public class Root {
     private int count;
 
     private int start;
@@ -57,5 +55,16 @@ public class FilmLive {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    @Override
+    public String toString() {
+        return "Root{" +
+                "count=" + count +
+                ", start=" + start +
+                ", total=" + total +
+                ", subjects=" + subjects +
+                ", title='" + title + '\'' +
+                '}';
     }
 }

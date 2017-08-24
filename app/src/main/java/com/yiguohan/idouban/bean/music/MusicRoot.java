@@ -1,6 +1,4 @@
-package com.yiguohan.idouban.bean.filmlive;
-
-import com.yiguohan.idouban.bean.top250.Subjects;
+package com.yiguohan.idouban.bean.music;
 
 import java.util.List;
 
@@ -8,16 +6,14 @@ import java.util.List;
  * Created by yiguohan.
  */
 
-public class FilmLive {
+public class MusicRoot {
     private int count;
 
     private int start;
 
     private int total;
 
-    private List<Subjects> subjects ;
-
-    private String title;
+    private List<Musics> musics ;
 
     public int getCount() {
         return count;
@@ -43,19 +39,11 @@ public class FilmLive {
         this.total = total;
     }
 
-    public List<Subjects> getSubjects() {
-        return subjects;
+    public List<Musics> getMusics() {
+        return musics;
     }
 
-    public void setSubjects(List<Subjects> subjects) {
-        this.subjects = subjects;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
+    public void setMusics(List<Musics> musics) {
+        this.musics = musics;
     }
 }

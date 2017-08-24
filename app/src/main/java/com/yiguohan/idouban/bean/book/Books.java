@@ -1,5 +1,7 @@
 package com.yiguohan.idouban.bean.book;
 
+import com.yiguohan.idouban.bean.top250.Images;
+
 import java.io.Serializable;
 import java.util.List;
 
