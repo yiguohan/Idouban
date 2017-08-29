@@ -31,6 +31,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@null"
+                    android:button="@null"
                     android:checked="true"
                     android:drawableTop="@drawable/tab_home_selector"
                     android:singleLine="true" />
@@ -40,6 +41,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@null"
+                    android:button="@null"
                     android:checked="true"
                     android:drawableTop="@drawable/tab_dynamic_selector"
                     android:singleLine="true" />
@@ -49,9 +51,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@null"
+                    android:button="@null"
                     android:checked="true"
                     android:drawableTop="@drawable/tab_message_selector"
                     android:singleLine="true" />
+
+
             </RadioGroup>
 
 
