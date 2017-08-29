@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".viewImpl.book.BookDetailActivity" />
+        <activity android:name=".viewImpl.filmdetail.FilmDetailActivity" />
+        <activity android:name=".viewImpl.music.MusicDetailActivity" />
+        <activity android:name=".viewImpl.other.AboutActivity" />
+        <activity android:name=".viewImpl.other.AuthorInfoActivity" />
+        <activity android:name=".viewImpl.other.EntryActivity" />
+        <activity android:name=".viewImpl.other.RecommendActivity" />
+        <activity android:name=".viewImpl.webview.WebViewActivity"></activity>
     </application>
 
 </manifest>

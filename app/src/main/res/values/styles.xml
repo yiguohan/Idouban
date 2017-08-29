@@ -19,7 +19,7 @@
     </style>
 
     <style name="ToolBarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
-        <item name="textSize">14sp</item>
+        <item name="android:textSize">14sp</item>
     </style>
 
     <style name="ToolBarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
