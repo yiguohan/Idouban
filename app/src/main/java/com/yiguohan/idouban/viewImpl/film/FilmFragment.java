@@ -17,8 +17,12 @@ import com.yiguohan.idouban.base.BaseFragment;
 public class FilmFragment extends BaseFragment implements ViewPager.OnPageChangeListener {
 
 
-    public FilmFragment() {
-        // Required empty public constructor
+
+    public static FilmFragment newInstance(){
+        Bundle arg = new Bundle();
+        FilmFragment fragment = new FilmFragment();
+        fragment.setArguments(arg);
+        return fragment;
     }
 
 

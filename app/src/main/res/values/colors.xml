@@ -13,4 +13,20 @@
     <color name="text_gray_6">#666666</color>
 
     <color name="red_base">#FB5B81</color>
+
+    <color name="theme_blue">#0077D9</color>
+
+    <color name="theme_blue_light">#03A9F4</color>
+
+    <color name="theme_black">#000000</color>
+
+    <color name="theme_red">#FF5252</color>
+
+    <color name="theme_brown">#795548</color>
+
+    <color name="theme_green">#4CAF50</color>
+
+    <color name="theme_teal">#009688</color>
+
+    <color name="theme_red_base">#FB5B81</color>
 </resources>

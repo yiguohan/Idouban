@@ -11,7 +11,7 @@ import com.yiguohan.idouban.R;
  * Created by yiguohan.
  */
 
-public abstract class BaseFragment extends Fragment implements IBaseView {
+public abstract class BaseFragment extends android.support.v4.app.Fragment implements IBaseView {
 
     private Toast mToast;
 

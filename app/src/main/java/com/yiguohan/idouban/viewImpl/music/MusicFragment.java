@@ -17,8 +17,11 @@ import com.yiguohan.idouban.base.BaseFragment;
 public class MusicFragment extends BaseFragment implements ViewPager.OnPageChangeListener {
 
 
-    public MusicFragment() {
-        // Required empty public constructor
+    public static MusicFragment newInstance(){
+        Bundle arg = new Bundle();
+        MusicFragment fragment = new MusicFragment();
+        fragment.setArguments(arg);
+        return fragment;
     }
 
 

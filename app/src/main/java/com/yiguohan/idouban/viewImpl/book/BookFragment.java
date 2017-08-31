@@ -17,8 +17,11 @@ import com.yiguohan.idouban.base.BaseFragment;
 public class BookFragment extends BaseFragment implements ViewPager.OnPageChangeListener {
 
 
-    public BookFragment() {
-        // Required empty public constructor
+    public static BookFragment newInstance(){
+        Bundle arg = new Bundle();
+        BookFragment fragment = new BookFragment();
+        fragment.setArguments(arg);
+        return fragment;
     }
 
 
