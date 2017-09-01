@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.IdRes;
 import android.support.annotation.NonNull;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -27,7 +25,6 @@ import com.yiguohan.idouban.R;
 import com.yiguohan.idouban.adapter.ThemeColorAdapter;
 import com.yiguohan.idouban.base.ActivityCollector;
 import com.yiguohan.idouban.base.BaseActivity;
-import com.yiguohan.idouban.base.BaseFragment;
 import com.yiguohan.idouban.base.EasyRecyclerViewAdapter;
 import com.yiguohan.idouban.bean.home.ThemeColor;
 import com.yiguohan.idouban.bean.top250.Root;
@@ -176,6 +173,9 @@ public class MainActivity extends BaseActivity implements IGetTop250View {
         });
     }
 
+    /**
+     * 初始化更改主题页面
+     */
     private void initChangeTheme() {
         themeColorAdapter = new ThemeColorAdapter();
         themeColorList.add(new ThemeColor(R.color.theme_red_base));
@@ -218,7 +218,7 @@ public class MainActivity extends BaseActivity implements IGetTop250View {
                         break;
                     case R.id.nav_menu_theme:
                         View view = LayoutInflater.from(MainActivity.this).inflate(R.layout.dialog_theme_color, null, false);
-                        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.theme_recycler_view);
+                        RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.theme_recycler_view);
                         recyclerView.setLayoutManager(new GridLayoutManager(MainActivity.this, 4));
                         recyclerView.setAdapter(themeColorAdapter);
                         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
