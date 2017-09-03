@@ -8,6 +8,8 @@ import com.yiguohan.idouban.base.BaseActivity;
 
 public class WebViewActivity extends BaseActivity {
 
+    public static String EXTRA_URL;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
