@@ -144,7 +144,7 @@ public class BookReadingAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             ivFilm.setLayoutParams(params);
             if (!TextUtils.isEmpty(books.getImages().getLarge())) {
                 //TODO diplay第二个参数
-                DisplayImgUtils.newInstance().display(context, books.getImages().getLarge(), ivFilm);
+                DisplayImgUtils.getInstance().display(context, books.getImages().getLarge(), ivFilm);
             }
             if (!TextUtils.isEmpty(books.getRating().getAverage())) {
                 tvFilmeGrade.setText("评分：" + books.getRating().getAverage());

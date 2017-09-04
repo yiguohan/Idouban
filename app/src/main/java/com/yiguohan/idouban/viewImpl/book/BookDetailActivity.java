@@ -100,7 +100,7 @@ public class BookDetailActivity extends BaseActivity implements IGetBookDetailVi
             return;
         }
         if (book.getImages() != null) {
-            DisplayImgUtils.newInstance().display(this, book.getImages().getLarge(), ivCover);
+            DisplayImgUtils.getInstance().display(this, book.getImages().getLarge(), ivCover);
         }
         if (!TextUtils.isEmpty(book.getTitle())) {
             tvBookName.setText(book.getTitle());

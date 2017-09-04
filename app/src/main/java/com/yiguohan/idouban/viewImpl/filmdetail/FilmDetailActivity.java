@@ -10,6 +10,8 @@ import com.yiguohan.idouban.viewinterface.film.IGetFilmDetailView;
 
 public class FilmDetailActivity extends BaseActivity implements IGetFilmDetailView {
 
+
+    public static String EXTRA_ID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

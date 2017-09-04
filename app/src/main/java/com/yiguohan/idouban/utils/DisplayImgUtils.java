@@ -16,7 +16,7 @@ public class DisplayImgUtils {
     private DisplayImgUtils() {
     }
 
-    public static DisplayImgUtils newInstance() {
+    public static DisplayImgUtils getInstance() {
         if (instance == null) {
             instance = new DisplayImgUtils();
         }
