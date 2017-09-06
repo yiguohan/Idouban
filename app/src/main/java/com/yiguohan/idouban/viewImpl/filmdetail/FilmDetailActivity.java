@@ -189,7 +189,7 @@ public class FilmDetailActivity extends BaseActivity implements IGetFilmDetailVi
 
     }
 
-    //TODO onClick未绑定？？？
+
     @OnClick({R.id.iv_film, R.id.tv_more_info})
     public void onClick(View view) {
         Intent intent;
